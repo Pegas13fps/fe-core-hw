@@ -10,13 +10,9 @@ main {
 	padding: 0 0 80px 0;
 }
 header {
-	width: 1024px;
-	height: 230px;
+	max-width: 1024px;
+	width: 100%;
 	margin: 0 auto;
-}
-nav {
-	position: absolute;
-	width: 1024px;
 }
 footer {
 	width: 1024px;
@@ -55,7 +51,7 @@ h3 {
 }
 .circle {
 	background: #ffffff;
-	position: absolute;
+	/*position: absolute;*/
 	height: 138px;
 	width: 138px;
 	border-radius: 50%;
@@ -641,84 +637,151 @@ button {
 	margin: 0 auto;
 }
 .menu__item {
-	/*margin-left: 20px;
-	margin-right: 20px;*/
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .journey-box {
 	margin: 0 60px 0;
 }
-@media screen and (max-width: 1024px) {
-	header {
-		height: 230px;
-	}
-	nav {
-	}
-	.journey-box {
-		margin: 0;
-	}
-	.middle {
-		width: 25%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin: 0  auto;
-		height: 100px;
-		margin: 13% 0 0 37%;
-	}
-	.circle {
-		height: 100px;
-		width: 100px;
-		left: 43%;
-		top: 2%;
-	}
-	.logo {
-		line-height: 100px;
-	}
-	.menu__item > a {
-		width: 85px;
-	}
-	
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	header {
-		height: 230px;
-	}
-	nav {
-	}
-	.journey-box {
-		margin: 0;
-	}
-	.middle {
-		width: 25%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin: 0  auto;
-		height: 100px;
-		margin: 13% 0 0 37%;
-	}
-	.circle {
-		height: 100px;
-		width: 100px;
-		left: 43%;
-		top: 2%;
-	}
-	.logo {
-		line-height: 100px;
-	}
-	.menu__item > a {
-		width: 85px;
-	}
-	
-}
 
-			/*НЕ РАБОТАЕТ !!!*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media (max-width: 1024px) {
 	header {
-		height: 230px;
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
 	}
 	nav {
-		display: none;
+		margin: 0 auto;
+		width: auto;
+		position: inherit;
+		height: 230px;
+	}
+	.journey-box {
+		margin: 0;
+	}
+	.middle {
+		width: 41%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0  auto;
+		padding: 120px 0 0 0;
+		height: 100px;
+	}
+	.circle {
+		position: absolute;
+		height: 100px;
+		width: 100px;
+		left: 43%;
+		top: 2%;
+	}
+	.logo {
+		line-height: 100px;
+		font-size: 43.6px;
 	}
 	
+	.pho {
+	width: 330px;
+    height: 180px;
+    background-size: 321% 337%;
+	}
+	.to-1 {
+    background-position: -717px -11px;
+	}
+	.to-2 {
+    background-position: -1070px -11px;
+	}
+	.to-3 {
+    background-position: -11px 392px;
+	}
+	.to-4 {
+    background-position: -1070px -11px;
+	}
+	.to-5 {
+    background-position: -717px -11px;
+	}
+	.to-6 {
+    background-position: -1070px -11px;
+	}
+	.to-7 {
+    background-position: -717px -11px;
+	}
+	.to-8 {
+    background-position: -1070px -11px;
+	}
+	.to-9 {
+    background-position: -1070px -11px;
+	}
 }
+@media (max-width: 768px) {
+	header {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	}
+	nav {
+		margin: 0 auto;
+		width: auto;
+		position: inherit;
+		height: 240px;
+	}
+	.journey-box {
+		margin: 0;
+	}
+	.middle {
+		width: 67%;
+		max-width: 400px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0  auto;
+		padding: 105px 0 0 0;
+		height: 100px;
+	}
+	.circle {
+		position: absolute;
+		height: 80px;
+		width: 80px;
+		left: 43%;
+		top: 2%;
+	}
+	.logo {
+		line-height: 80px;
+		font-size: 33.24px;
+	}
+}
+/*@media (max-width: 480px) {
+	header {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	}
+	nav {
+		margin: 0 auto;
+		width: auto;
+		position: inherit;
+		height: 240px;
+	}
+	.journey-box {
+		margin: 0;
+	}
+	.middle {
+		width: 75%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0  auto;
+		padding: 120px 0 0 0;
+		height: 100px;
+	}
+	.circle {
+		position: absolute;
+		height: 100px;
+		width: 100px;
+		left: 43%;
+		top: 2%;
+	}
+	.logo {
+		line-height: 100px;
+	}
+}*/
