@@ -120,7 +120,7 @@ li {
 	text-align: center;
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 20px;
-	line-height: 20px;
+	line-height: 26px;
 }
 .to-top {
 	width: 30px;
@@ -532,9 +532,6 @@ div.num-3:before {
 	width: 100%
 }
 .image-top {
-	width: 100%;
-}
-.cont-main {
 	width: 100%;
 }
 .cont-middle {
