@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	transition: all .2s;
+	transition: all .4s;
 }
 main {
 	width: 1024px;
@@ -622,9 +622,6 @@ a:hover {
 	}
 	.little-phone:before {
 		content: url(../img/icon-phone.png);
-	}
-	.little-letter {
-
 	}
 	.little-letter:before {
 		content: url(../img/icon-letter.png);
